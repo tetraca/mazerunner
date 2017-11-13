@@ -1,0 +1,58 @@
+body {
+    background: #763D99;
+}
+
+#wrapper {
+    background: #fff;
+    box-shadow: 0 0 40px 10px #333;
+}
+
+#maze {
+    font-family: monospace;
+    background: #333;
+    color: #ddd;
+    white-space: pre;
+}
+
+#maze-result {
+    overflow: scroll;
+    height: 500px;
+}
+
+#maze-table {
+    padding: 1em;
+}
+
+.maze-cell {
+    min-width: 25px;
+    height: 25px;
+    background: #fff;
+    border: 1px solid #000;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.success, .error {
+    margin: 1em;
+    padding: 1em;
+}
+
+.success {
+    background: #dfd;
+}
+
+.error {
+    background: #f99;
+}
+
+.wall {
+   background: #000;
+}
+
+.start {
+   background: #0f0;
+}
+
+.end {
+   background: #f00;
+}
